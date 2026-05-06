@@ -28,6 +28,8 @@
             </div>
             <div class="hidden md:flex items-center space-x-8 text-[10px] font-bold uppercase tracking-widest text-neutral-400">
                 <a href="#vize" class="hover:text-white transition">Výhody</a>
+                <a href="#portfolio" class="hover:text-white transition">Tvorba</a>
+                <a href="#reference" class="hover:text-white transition">Reference</a>
                 <a href="#cenik" class="hover:text-white transition">Ceník</a>
                 <a href="#kontakt" class="px-5 py-2.5 bg-blue-600 text-white rounded-full hover:bg-blue-500 transition shadow-lg shadow-blue-600/20">Poptat web</a>
             </div>
@@ -46,13 +48,14 @@
                     Stavíme ultra-rychlá řešení na GitHubu. Hotovo do týdne. <span class="text-white font-bold underline decoration-blue-500 underline-offset-4">Hosting je NAVŽDY zdarma</span> a doména v ceně.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="#cenik" class="px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold text-center hover:bg-blue-500 transition shadow-xl shadow-blue-600/30">Zobrazit ceník</a>
+                    <a href="#portfolio" class="px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold text-center hover:bg-blue-500 transition shadow-xl shadow-blue-600/30">Ukázky tvorby</a>
                     <a href="#kontakt" class="px-8 py-4 border border-white/10 text-white rounded-2xl font-bold text-center hover:bg-white/5 transition">Konzultace zdarma</a>
                 </div>
             </div>
             
             <div class="relative">
-                <div class="aspect-video bg-neutral-900 rounded-3xl overflow-hidden border border-white/10 shadow-2xl group relative">
+                <!--  -->
+                <div class="aspect-video bg-neutral-900 rounded-3xl overflow-hidden border border-white/10 shadow-2xl group relative border-blue-500/10">
                     <div class="bg-neutral-800 p-3 flex space-x-2 border-b border-white/5">
                         <div class="w-2 h-2 rounded-full bg-red-500"></div>
                         <div class="w-2 h-2 rounded-full bg-yellow-500"></div>
@@ -75,12 +78,123 @@
         </div>
     </section>
 
+    <!-- Sekce: Vybraná tvorba -->
+    <section id="portfolio" class="py-24 border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="mb-16 flex flex-col md:flex-row justify-between items-end gap-4">
+                <div>
+                    <span class="text-blue-500 text-xs font-bold uppercase tracking-widest italic">Portfolio</span>
+                    <h2 class="text-4xl font-bold text-white mt-2 tracking-tighter uppercase">Vybrané projekty</h2>
+                </div>
+                <p class="text-neutral-500 text-sm max-w-xs md:text-right">Reálné ukázky naší práce. Statická architektura v praxi.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Architekti dějin -->
+                <a href="https://www.architektidejin.cz" target="_blank" class="p-8 bg-neutral-900 border border-white/5 rounded-3xl card-hover group block">
+                    <div class="flex justify-between items-start mb-6">
+                        <div class="w-10 h-10 bg-green-500/10 text-green-500 rounded-lg flex items-center justify-center"><i data-lucide="graduation-cap"></i></div>
+                        <i data-lucide="external-link" class="w-4 h-4 text-neutral-600 group-hover:text-white transition"></i>
+                    </div>
+                    <h4 class="font-bold text-white text-xl mb-2">Architekti dějin</h4>
+                    <p class="text-neutral-500 text-xs mb-6">Web pro inovativní vzdělávací projekt. Čistý design, bleskové načítání.</p>
+                    <span class="text-[10px] font-bold uppercase tracking-widest text-green-500 opacity-80">architektidejin.cz</span>
+                </a>
+
+                <!-- Burgerfestival -->
+                <a href="https://www.malinskyburgerfestival.cz" target="_blank" class="p-8 bg-neutral-900 border border-white/5 rounded-3xl card-hover group block">
+                    <div class="flex justify-between items-start mb-6">
+                        <div class="w-10 h-10 bg-orange-500/10 text-orange-500 rounded-lg flex items-center justify-center"><i data-lucide="utensils"></i></div>
+                        <i data-lucide="external-link" class="w-4 h-4 text-neutral-600 group-hover:text-white transition"></i>
+                    </div>
+                    <h4 class="font-bold text-white text-xl mb-2">Burgerfestival</h4>
+                    <p class="text-neutral-500 text-xs mb-6">Vysoká zátěž, tisíce návštěvníků, nulové výpadky. Strategické řešení eventu.</p>
+                    <span class="text-[10px] font-bold uppercase tracking-widest text-orange-500 opacity-80">malinskyburgerfestival.cz</span>
+                </a>
+
+                <!-- Kadeřnictví -->
+                <a href="https://www.kadernictvi-martina.cz" target="_blank" class="p-8 bg-neutral-900 border border-white/5 rounded-3xl card-hover group block">
+                    <div class="flex justify-between items-start mb-6">
+                        <div class="w-10 h-10 bg-purple-500/10 text-purple-500 rounded-lg flex items-center justify-center"><i data-lucide="scissors"></i></div>
+                        <i data-lucide="external-link" class="w-4 h-4 text-neutral-600 group-hover:text-white transition"></i>
+                    </div>
+                    <h4 class="font-bold text-white text-xl mb-2">Kadeřnictví Martina</h4>
+                    <p class="text-neutral-500 text-xs mb-6">Elegantní prezentace lokální služby. Přehledné, responzivní, efektivní.</p>
+                    <span class="text-[10px] font-bold uppercase tracking-widest text-purple-500 opacity-80">kadernictvi-martina.cz</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekce: Reference -->
+    <section id="reference" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="mb-16">
+                <span class="text-blue-500 text-xs font-bold uppercase tracking-widest italic">Zkušenosti klientů</span>
+                <h2 class="text-4xl font-bold text-white mt-2 tracking-tighter uppercase">Kdo už s námi roste</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Petr V. -->
+                <div class="p-8 bg-neutral-900 border border-white/5 rounded-[2rem] card-hover relative overflow-hidden group">
+                    <div class="absolute -right-4 -top-4 opacity-5 text-blue-500 group-hover:opacity-10 transition-opacity">
+                        <i data-lucide="quote" class="w-24 h-24"></i>
+                    </div>
+                    <p class="text-neutral-400 text-sm leading-relaxed mb-8 italic relative z-10">
+                        "Expresní dodání taxi webu mi zachránilo sezónu. Web je bleskový a nulová údržba je pro mě jako majitele firmy klíčová."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center font-bold text-white uppercase text-xs">PV</div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm uppercase tracking-tighter">Petr V.</h4>
+                            <p class="text-[10px] text-blue-500 font-bold uppercase tracking-widest">Airport Taxi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Martin F. -->
+                <div class="p-8 bg-neutral-900 border border-white/5 rounded-[2rem] card-hover relative overflow-hidden group">
+                    <div class="absolute -right-4 -top-4 opacity-5 text-blue-500 group-hover:opacity-10 transition-opacity">
+                        <i data-lucide="quote" class="w-24 h-24"></i>
+                    </div>
+                    <p class="text-neutral-400 text-sm leading-relaxed mb-8 italic relative z-10">
+                        "Pro Burgerfestival jsme potřebovali řešení, které nezklame při nárazu tisíců lidí. GitHub architektura je technická špička."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-orange-600 rounded-full flex items-center justify-center font-bold text-white uppercase text-xs">MF</div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm uppercase tracking-tighter">Martin F.</h4>
+                            <p class="text-[10px] text-orange-500 font-bold uppercase tracking-widest">Burgerfestival</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Martin V. -->
+                <div class="p-8 bg-neutral-900 border border-white/5 rounded-[2rem] card-hover relative overflow-hidden group">
+                    <div class="absolute -right-4 -top-4 opacity-5 text-blue-500 group-hover:opacity-10 transition-opacity">
+                        <i data-lucide="quote" class="w-24 h-24"></i>
+                    </div>
+                    <p class="text-neutral-400 text-sm leading-relaxed mb-8 italic relative z-10">
+                        "Kadeřnictví konečně vypadá v digitálu profi. Stačilo pár dní a měl jsem hotovo. Načítání je okamžité, maximální spokojenost."
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center font-bold text-white uppercase text-xs">MV</div>
+                        <div>
+                            <h4 class="font-bold text-white text-sm uppercase tracking-tighter">Martin V.</h4>
+                            <p class="text-[10px] text-purple-500 font-bold uppercase tracking-widest">Kadeřnictví</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Ceník -->
-    <section id="cenik" class="py-32">
+    <section id="cenik" class="py-32 bg-neutral-950/30">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center mb-20">
                 <h2 class="text-4xl font-bold mb-4 tracking-tighter italic uppercase text-white">Průhledná nabídka</h2>
-                <p class="text-neutral-500 max-w-xl mx-auto">Vyberte si bleskový základ nebo komplexní systém na míru.</p>
+                <p class="text-neutral-500 max-w-xl mx-auto text-sm">Vyberte si bleskový základ nebo komplexní systém na míru.</p>
             </div>
 
             <div class="grid lg:grid-cols-3 gap-8">
@@ -91,13 +205,13 @@
                     <div class="mt-8 mb-4">
                         <span class="text-5xl font-bold tracking-tighter text-nowrap">3.000 Kč</span>
                     </div>
-                    <p class="text-blue-100 text-sm mb-8">Ideální pro vizitky, řemeslníky a profesionály. Nulová údržba.</p>
-                    <ul class="space-y-4 text-sm mb-12">
+                    <p class="text-blue-100 text-xs mb-8 leading-relaxed">Ideální pro vizitky, řemeslníky a profesionály. Žádná údržba.</p>
+                    <ul class="space-y-4 text-xs mb-12">
                         <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4"></i> Doména v ceně</li>
                         <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4"></i> Hosting NAVŽDY zdarma</li>
                         <li class="flex items-center gap-3"><i data-lucide="check" class="w-4 h-4"></i> Hotovo do 7 dnů</li>
                     </ul>
-                    <a href="#kontakt" class="block w-full py-4 bg-white text-blue-600 rounded-xl font-bold text-center hover:bg-neutral-900 hover:text-white transition-all">Objednat ihned</a>
+                    <a href="#kontakt" class="block w-full py-4 bg-white text-blue-600 rounded-xl font-bold text-center hover:bg-neutral-900 hover:text-white transition-all text-xs uppercase tracking-widest">Objednat ihned</a>
                 </div>
 
                 <!-- Moduly -->
@@ -106,22 +220,22 @@
                     <div class="mt-8 space-y-6">
                         <div class="flex justify-between items-center border-b border-white/5 pb-4">
                             <div>
-                                <h4 class="font-bold text-white text-sm">Fotoalba / Galerie</h4>
-                                <p class="text-[10px] text-neutral-500">Prezentace vašich referencí</p>
+                                <h4 class="font-bold text-white text-sm uppercase tracking-tighter">Galerie / Fotoalba</h4>
+                                <p class="text-[10px] text-neutral-500 italic">Reference vaší práce</p>
                             </div>
                             <span class="text-xs font-bold">+ 1.500 Kč</span>
                         </div>
                         <div class="flex justify-between items-center border-b border-white/5 pb-4">
                             <div>
-                                <h4 class="font-bold text-white text-sm">Google Setup</h4>
-                                <p class="text-[10px] text-neutral-500">Analytika a viditelnost</p>
+                                <h4 class="font-bold text-white text-sm uppercase tracking-tighter">Google Setup</h4>
+                                <p class="text-[10px] text-neutral-500 italic">SEO a viditelnost</p>
                             </div>
                             <span class="text-xs font-bold">+ 2.000 Kč</span>
                         </div>
                         <div class="flex justify-between items-center border-b border-white/5 pb-4">
                             <div>
-                                <h4 class="font-bold text-white text-sm">Formspree</h4>
-                                <p class="text-[10px] text-neutral-500">Pokročilé formuláře do mailu</p>
+                                <h4 class="font-bold text-white text-sm uppercase tracking-tighter">Formspree</h4>
+                                <p class="text-[10px] text-neutral-500 italic">Formuláře do mailu</p>
                             </div>
                             <span class="text-xs font-bold">+ 1.000 Kč</span>
                         </div>
@@ -131,18 +245,13 @@
                 <!-- Dynamické weby -->
                 <div class="p-10 bg-neutral-900 border border-blue-500/30 rounded-[2.5rem] flex flex-col justify-between">
                     <div>
-                        <span class="text-[10px] font-bold uppercase tracking-widest text-blue-400">Premium Solution</span>
-                        <h4 class="text-2xl font-bold text-white mt-8 mb-4 tracking-tighter uppercase">Dynamické systémy</h4>
-                        <p class="text-neutral-500 text-sm leading-relaxed mb-6">E-shopy, rezervační portály nebo systémy s vlastní administrací a databází.</p>
-                        <ul class="space-y-3 text-[11px] text-neutral-400">
-                            <li class="flex items-center gap-2"><i data-lucide="zap" class="w-3 h-3 text-blue-500"></i> Individuální backend</li>
-                            <li class="flex items-center gap-2"><i data-lucide="zap" class="w-3 h-3 text-blue-500"></i> Klientské zóny</li>
-                            <li class="flex items-center gap-2"><i data-lucide="zap" class="w-3 h-3 text-blue-500"></i> E-commerce řešení</li>
-                        </ul>
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-blue-400 italic">Premium Solution</span>
+                        <h4 class="text-2xl font-bold text-white mt-8 mb-4 tracking-tighter uppercase italic">Dynamické systémy</h4>
+                        <p class="text-neutral-500 text-xs leading-relaxed mb-6">E-shopy, rezervační portály nebo systémy s vlastní administrací a databází.</p>
                     </div>
                     <div class="mt-12">
-                        <div class="text-xs text-neutral-500 mb-2 italic text-center">Individuální nabídka</div>
-                        <a href="#kontakt" class="block w-full py-4 border border-blue-500 text-blue-500 rounded-xl font-bold text-center hover:bg-blue-500 hover:text-white transition-all">Poptat řešení na míru</a>
+                        <div class="text-[10px] text-neutral-500 mb-2 italic text-center uppercase tracking-widest">Individuální nabídka</div>
+                        <a href="#kontakt" class="block w-full py-4 border border-blue-500 text-blue-500 rounded-xl font-bold text-center hover:bg-blue-500 hover:text-white transition-all text-xs uppercase tracking-widest">Poptat řešení</a>
                     </div>
                 </div>
             </div>
@@ -152,13 +261,12 @@
                 <div class="flex items-center gap-6 text-left">
                     <div class="w-12 h-12 bg-blue-500/20 rounded-xl flex items-center justify-center text-blue-500"><i data-lucide="settings"></i></div>
                     <div>
-                        <h5 class="text-xl font-bold text-white tracking-tighter">Trvalá správa & dohled</h5>
-                        <p class="text-neutral-500 text-sm italic">Aktualizace a technický support pro váš naprostý klid.</p>
+                        <h5 class="text-lg font-bold text-white tracking-tighter uppercase">Trvalá správa & dohled</h5>
+                        <p class="text-neutral-500 text-xs italic">Aktualizace obsahu a technický support pro váš klid.</p>
                     </div>
                 </div>
                 <div class="text-center md:text-right">
-                    <div class="text-2xl font-bold text-white tracking-tighter">290 Kč <span class="text-xs font-normal opacity-50">/ měsíc</span></div>
-                    <span class="text-[10px] uppercase font-bold text-blue-500 tracking-widest">Plně volitelná služba</span>
+                    <div class="text-2xl font-bold text-white tracking-tighter uppercase italic">290 Kč <span class="text-xs font-normal opacity-50">/ měsíc</span></div>
                 </div>
             </div>
         </div>
@@ -171,17 +279,17 @@
             <div class="bg-neutral-900 p-10 rounded-[2.5rem] border border-white/5 text-left shadow-2xl">
                 <form class="space-y-6">
                     <div class="grid grid-cols-2 gap-4">
-                        <input type="text" placeholder="Jméno" class="w-full bg-black border border-neutral-800 p-4 rounded-xl focus:border-blue-500 outline-none text-white">
-                        <input type="text" placeholder="Telefon" class="w-full bg-black border border-neutral-800 p-4 rounded-xl focus:border-blue-500 outline-none text-white">
+                        <input type="text" placeholder="Jméno" class="w-full bg-black border border-neutral-800 p-4 rounded-xl focus:border-blue-500 outline-none text-white text-sm">
+                        <input type="text" placeholder="Telefon" class="w-full bg-black border border-neutral-800 p-4 rounded-xl focus:border-blue-500 outline-none text-white text-sm">
                     </div>
-                    <select class="w-full bg-black border border-neutral-800 p-4 rounded-xl focus:border-blue-500 outline-none text-neutral-500 appearance-none">
+                    <select class="w-full bg-black border border-neutral-800 p-4 rounded-xl focus:border-blue-500 outline-none text-neutral-500 text-sm appearance-none">
                         <option>Základní statický web (3.000 Kč)</option>
                         <option>Dynamické řešení / E-shop (Individuálně)</option>
                         <option>Měsíční správa (290 Kč)</option>
                     </select>
-                    <textarea placeholder="Popište vaši vizi..." rows="4" class="w-full bg-black border border-neutral-800 p-4 rounded-xl focus:border-blue-500 outline-none text-white"></textarea>
+                    <textarea placeholder="Popište vaši vizi..." rows="4" class="w-full bg-black border border-neutral-800 p-4 rounded-xl focus:border-blue-500 outline-none text-white text-sm"></textarea>
                     <button type="button" class="w-full py-5 bg-blue-600 text-white font-bold rounded-2xl hover:bg-blue-500 transition-all uppercase tracking-widest text-xs">
-                        Odeslat expresní poptávku
+                        Odeslat poptávku
                     </button>
                 </form>
             </div>
